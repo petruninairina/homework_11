@@ -7,6 +7,7 @@
 /* Потом селекторы по тегам */
 
 html {
+    color: black;
 
 }
 
@@ -16,6 +17,7 @@ main {
 }
 
 p {
+    
 
 }
 
@@ -36,10 +38,25 @@ a {
 /* Потом селекторы по классам */
 
 .text-input {
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+    border-radius: 10px;
+
+
 
 }
 
 .button {
+    width: 40%;
+    height: 48px;
+    margin-top: 24px;
+    color: white;
+    background-color: #554AF0;
+    font-size: 16px;
+    border-radius: 10px;
+
+
 
 }
 
@@ -48,7 +65,11 @@ a {
 /* Login*/
 
 .input-login {
-
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 
 }
 
@@ -78,6 +99,7 @@ a {
 /* Страничка популярного */
 
 .cover {
+
 
 }
 
