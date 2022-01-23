@@ -8,7 +8,7 @@
 
 html {
     color: black;
-    font-family: "Arial Black";
+    font-family: "Arial";
 
 
 }
@@ -26,7 +26,7 @@ p {
 }
 
 a {
-    
+
 }
 
 /* Колонки */
@@ -81,23 +81,32 @@ a {
 /* Страничка жанров и тегов */
 
 .genre-first {
-
-
-}
+    background-color: #E1F5EA;
+    border-radius: 4px;
+   }
 
 .genre-second {
-
+    background-color: #CBEDFF;
+    margin-right: 68px;
+    border-radius: 4px;
 }
 
 .genre-third {
+    background-color: #EEE5BD;
+    margin-right: 142px;
+    border-radius: 4px;
 
 }
 
 .genre-fourth {
+    background-color: #EBDCF9;
+    margin-right: 225px;
+    border-radius: 4px;
 
 }
 
 .tag {
+    color: #5d2dcd;
 
 }
 
