@@ -8,31 +8,35 @@
 
 html {
     color: black;
+    font-family: "Arial Black";
+
 
 }
 
 main {
     width: 300px;
     margin: 0px auto;
+
 }
 
 p {
-    
+    font-family: Calibri;
+
 
 }
 
 a {
-
+    
 }
 
 /* Колонки */
 
 .row {
-
+    display: flex;
 }
 .col {
-
-}
+    flex: auto;
+  }
 
 
 /* Потом селекторы по классам */
@@ -41,7 +45,7 @@ a {
     width: 100%;
     height: 48px;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 5px;
 
 
 
@@ -78,6 +82,7 @@ a {
 
 .genre-first {
 
+
 }
 
 .genre-second {
@@ -99,8 +104,7 @@ a {
 /* Страничка популярного */
 
 .cover {
-
-
+    border: 10px solid transparent;
 }
 
 /* Страничка подписки  */
@@ -118,5 +122,6 @@ a {
 }
 
 .button-link {
+
 
 }
